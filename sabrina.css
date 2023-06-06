@@ -1,0 +1,32 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  html, body {
+    background-color: #5fb96e;
+  }
+  
+  #text{
+    text-decoration-line: none;
+    font: italic bold 40px arial, sans-serif;
+    color: #000;
+  }
+  
+  a{
+    text-decoration-line: none;
+    font: italic bold 18px arial, sans-serif;
+    color: #000000;
+  }
+  
+  button{
+    background-color: #5fb96e;
+    border-style: ridge;
+    border-color: #000000;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: 24px;
+    grid-gap: 20px
+  }
+  
+  
